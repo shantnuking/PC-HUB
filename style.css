@@ -49,10 +49,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.display :hover {
-  box-shadow: 10px 10px 8px 10px #888888;
-  transform: translate3d(-0.4vmax, -0.4vmax, -0.4vmax);
-}
+
 
 .heading {
   display: flex;
@@ -109,19 +106,19 @@ body {
   transform: translate3d(-0.4vmax, -0.4vmax, -0.4vmax);
   border: 2px solid white;
 
-  background-color: #505050;
+
 }
 
 .two:hover {
   transform: translate3d(-0.4vmax, -0.4vmax, -0.4vmax);
   border: 2px solid white;
-  background-color: #505050;
+;
 }
 
 .three:hover {
   transform: translate3d(-0.4vmax, -0.4vmax, -0.4vmax);
   border: 2px solid white;
-  background-color: #505050;
+
 }
 
 button {
@@ -149,7 +146,7 @@ button {
 }
 .developer div:hover {
   transform: translate3d(-0.4vmax, -0.4vmax, -0.4vmax);
-  box-shadow: 8px 8px 8px 8px #888888;
+
 }
 
 .developer div img {
@@ -163,7 +160,7 @@ button {
   }
   .highend2:hover {
     transform: translate3d(-0.4vmax, -0.4vmax, -0.4vmax);
-    box-shadow: 8px 8px 8px 8px #888888;
+
   }
   .highend2  {
     width: 50%;
@@ -201,7 +198,7 @@ button {
   }
   .lowend2:hover {
     transform: translate3d(-0.4vmax, -0.4vmax, -0.4vmax);
-    box-shadow: 8px 8px 8px 8px #888888;
+    
   }
   .lowend2  {
     width: 50%;

@@ -22,3 +22,12 @@ var i = 0;
         function  buttonFirst(){
             window.location="components/student1.html"
         }
+        function  s2(){
+            window.location="components/student2.html"
+        }
+        function  s3(){
+            window.location="components/student3.html"
+        }
+        function  s4(){
+            window.location="components/student4.html"
+        }
