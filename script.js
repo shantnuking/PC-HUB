@@ -31,3 +31,15 @@ var i = 0;
         function  s4(){
             window.location="components/student4.html"
         }
+        function  d1(){
+            window.location="components/devloper1.html"
+        }
+        function  d2(){
+            window.location="components/devloper2.html"
+        }
+        function  d3(){
+            window.location="components/devloper3.html"
+        }
+        function  d4(){
+            window.location="components/devloper4.html"
+        }
