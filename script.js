@@ -43,3 +43,24 @@ var i = 0;
         function  d4(){
             window.location="components/devloper4.html"
         }
+        function  h1(){
+            window.location="components/highend1.html"
+        }
+        function  h2(){
+            window.location="components/highend2.html"
+        }
+        function  l1(){
+            window.location="components/lowend1.html"
+        }
+        function  l2(){
+            window.location="components/lowend2.html"
+        }
+        function  da1(){
+            window.location="components/dataanalyst1.html"
+        }
+        function  da2(){
+            window.location="components/dataanalyst2.html"
+        }
+        function  da3(){
+            window.location="components/dataanalyst3.html"
+        }
