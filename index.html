@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta RS - 104,999/-="viewport" content="width=device-width, initial-scale=1.0">
+    <meta="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>PC-HUB</title>
     <link rel="shortcut icon" href="/PC-HUB/images/FabIcon.jpg">
@@ -13,31 +13,32 @@
 
 <body>
     <header>
-        <!-- navigation -->
+
         <div class="navcontainer">
             <div class="first">
                 <img src="images/logo.jfif" alt="logo">
                 <h4>PC-HUB</h4>
             </div>
             <div class="second">
-                <div id="student">Student</div>
-                <div id="developer">Developer</div>
-                <div id="high-end">High end gaming</div>
-                <div id="low-end">Low end gaming</div>
-                <div id="data-analyst">Data Analyst</div>
+                <div id="student"><a href="#stu">Student</a></div>
+                <div id="developer"><a href="#dev">Developer</a></div>
+                <div id="high-end"><a href="#he">High end gaming</a></div>
+                <div id="low-end"><a href="#le">Low end gaming</a></div>
             </div>
         </div>
-
+        
         <div class="display">
-            <img RS - 104,999/-="slide" width=80% height="700" style="border-radius: 1px solid black;">
+            <img name="slide" width=80% height="700" style="border-radius: 1px solid black;">
         </div>
+        <div id="stu"></div>
         <div class="heading" style="margin-top: 110px;">
             <div></div>
             <h2>STUDENT</h2>
             <div></div>
         </div>
-        <div class="student">
 
+        <div class="student">
+           
             <div class="student-one">
                 <img src="images/s1.PNG" height="200px " width="50%" alt="" >
                 <p>Realme Book</p>
@@ -66,6 +67,7 @@
             </div>
         </div>
     </header>
+    <div id="dev"></div>
     <div class="heading" style="margin-top: 110px;">
         <div></div>
         <h2>DEVELOPER</h2>
@@ -96,7 +98,7 @@
             <p>RS - 55,999/-</p>
         <button  onclick="d4()">Show more</button>
       </div>
-    </div>
+    </div><div id="he"></div>
     <div class="heading" style="margin-top: 110px;">
         <div></div>
         <h2>HIGH END GAMING</h2>
@@ -124,6 +126,7 @@
             </div>
         </div>
     </div>
+    <div id="le"></div>
     <div class="heading" style="margin-top: 110px;">
         <div></div>
         <h2>LOW END GAMING</h2>
@@ -151,43 +154,44 @@
             </div>
         </div>
     </div>
-    <div class="heading" style="margin-top: 110px;">
-        <div></div>
-        <h2>DATA ANALYST</h2>
-        <div></div>
-    </div>
-    <div class="analyst">
-        <div class="analyst1">
-            <img src="images/slide2.jfif" height="400px " width="100%" alt="">
-        <h4>PRICE</h4>
-        <h4>RS - 104,999/-</h4>
-        <button  onclick="da1()">Show more</button>
-        </div>
-        <div class="analyst2">
-            
-                <div class="analyst3">
-                    <div>
-                        <img src="images/slide2.jfif" height="300px " width="100%" alt="">
-                    </div>
-                    <div>
-                        <h4>PRICE</h4>
-                        <h4>RS - 104,999/-</h4>
-                        <button  onclick="da2()">Show more</button>
-                    </div>
-                </div>
-                <div class="analyst3">
-                    <div>
-                        <img src="images/slide2.jfif" height="300px " width="100%" alt="">
-                    </div>
-                    <div>
-                        <h4>PRICE</h4>
-                        <h4>RS - 104,999/-</h4>
-                        <button  onclick="da3()">Show more</button>
-                    </div>
-            
-        </div>
-    </div>
 
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our service</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>categories</h4>
+                    <ul>
+                        <li><a href="#stu">Student</a></li>
+                        <li><a href="#dev">developer</a></li>
+                        <li><a href="#he">High-End Gaming</a></li>
+                        <li><a href="#le">Low-End Gaming</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Recommend</h4>
+                    <ul>
+                        <li><a href="/PC-HUB/components/student1.html">Realme</a></li>
+                        <li><a href="/PC-HUB/components/student2.html">Xiaomi mi notebook 14</a></li>
+                        <li><a href="/PC-HUB/components/highend2.html">HP 15-ek0019TX Omen Gaming</a></li>
+                        <li><a href="/PC-HUB/components/devloper4.html">Acer SF314-42 Swift 3</a></li>
+                        <li><a href="/PC-HUB/components/lowend2.html">Asus G512LI-HN177T</a></li>
+                    </ul>
+                </div>
+             
+            </div>
+        </div>
+    </footer>
 
 <script src="script.js"></script>
 </body>
