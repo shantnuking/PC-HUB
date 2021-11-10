@@ -55,12 +55,3 @@ var i = 0;
         function  l2(){
             window.location="components/lowend2.html"
         }
-        function  da1(){
-            window.location="components/dataanalyst1.html"
-        }
-        function  da2(){
-            window.location="components/dataanalyst2.html"
-        }
-        function  da3(){
-            window.location="components/dataanalyst3.html"
-        }
